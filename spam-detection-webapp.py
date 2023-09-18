@@ -3,8 +3,8 @@ import pickle
 import streamlit as st
 
 #loading the saved model
-model = pickle.load(open('C:/Users/afzal/GBJ-BUZZ-Intern/18-09-2023/trained_model.sav','rb'))
-loaded_vectorizer = pickle.load(open('C:/Users/afzal/GBJ-BUZZ-Intern/18-09-2023/vectorizer.pickle', 'rb'))
+model = pickle.load(open('models/trained_model.sav','rb'))
+loaded_vectorizer = pickle.load(open('models/vectorizer.pickle', 'rb'))
 
 # creating a function for classification
 def spam_detection(input_data):
