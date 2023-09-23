@@ -3,3 +3,4 @@ numpy
 streamlit
 nltk
 pickle-mixin
+streamlit-option-menu
