@@ -1,6 +1,8 @@
 import numpy as np
 import pickle
 import streamlit as st
+import nltk
+nltk.download('punkt')
 
 #loading the saved model
 model = pickle.load(open('models/trained_model.sav','rb'))
